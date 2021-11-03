@@ -36,7 +36,7 @@
 我们将五个参数依次填写到butian.py中的指定位置就可以了。
 
 
-然后千删除id_lishi.txt
+然后千万别删除id_lishi.txt
 
 
 
