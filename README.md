@@ -40,4 +40,16 @@
 
 
 
-对了，最重要的，就是这个脚本需要配合linux的命令实现每隔一段时间运行一次，具体哪个命令百度吧，，着急下班明天写
+对了，最重要的，就是这个脚本需要配合linux的命令实现每隔一段时间运行一次
+
+
+开始做补充，就是那个linux命令，我目前用的是  crontab 
+
+输入crontab -e  就可以编辑定时任务
+
+*/5 * * * * cd /root/butian/butian && /usr/bin/python3 /root/butian/butian/butian2.py
+
+这是我目前的定时任务，，，每5分钟执行一次，
+这个python和脚本都需要写绝对路径
+
+如果有哪里不会可以加微信沟通amiao0908
