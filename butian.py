@@ -52,7 +52,7 @@ class butian_main:
     #读取历史记录
     def read_lishi(self):
         try:
-            with open('id_lishi.txt','r') as f:     #历史消息
+            with open('id_lishi.txt','r',encoding="utf-8") as f:     #历史消息
                 ff = f.read()
             fff = ff.split('\n')
             return fff
@@ -62,7 +62,7 @@ class butian_main:
     #写入历史记录
     def write_lishi(self,word_txt):
         try:
-            with open('id_lishi.txt','a') as c:
+            with open('id_lishi.txt','a',encoding="utf-8") as c:
                 c.write(word_txt + '\n')
         except:
             self.send_wechat("程序异常","写入id_lishi.txt失败")
