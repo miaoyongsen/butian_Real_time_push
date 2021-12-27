@@ -47,7 +47,7 @@
 
 输入crontab -e  就可以编辑定时任务
 
-*/5 * * * * cd /root/butian/butian && /usr/bin/python3 /root/butian/butian/butian2.py
+*/5 * * * * cd /root/butian/butian && /usr/bin/python3 /root/butian/butian/butian2.py     #对了这个路径不是固定的，是因人而已，不要直接复制。。。
 
 这是我目前的定时任务，，，每5分钟执行一次，
 这个python和脚本都需要写绝对路径
